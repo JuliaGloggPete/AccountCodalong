@@ -10,8 +10,8 @@ public class Main {
         salaryAccount.deposit(100);
         savingAccount.deposit(200);
 
-        Double money = salaryAccount.withdraw(50);
-        System.out.println(money);
+        Double money = salaryAccount.withdraw(50);// varför stort Double
+        System.out.println(money); // varför kan jag inte pusha upp 
 
         System.out.println(salaryAccount.getBalance());
         System.out.println(savingAccount.getBalance());
